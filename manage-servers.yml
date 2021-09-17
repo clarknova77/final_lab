@@ -1,0 +1,8 @@
+---
+- name: Manage the OpenStack Servers
+  hosts: control_node
+  gather_facts: false
+  become: false
+  roles:
+    - manage_servers
+...
