@@ -3,6 +3,8 @@ top directory
 - added destroy-servers.yml
 - added inventory/hosts
 - added group_vars/ for app control_node db_servers load_balancers *.yml
+- added manage-servers.yml
+- added provision-app-tier.yml
 
 
 
