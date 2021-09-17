@@ -1,0 +1,12 @@
+top directory
+- added add_subscriptions.yml
+- added destroy-servers.yml
+- added inventory/hosts
+- added group_vars/ for app control_node db_servers load_balancers *.yml
+
+
+
+
+- added roles for flask, haproxy, postgres, manage_inmemory_inventory, manage_servers
+
+
