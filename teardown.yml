@@ -182,7 +182,7 @@
       - python3-pip
 
     pip_dependencies: []
-      #      - virtualenv
+      # - virtualenv
       # - pip  
       # - psycopg2-binary
 
@@ -205,7 +205,6 @@
                 name: "{{ flask_app_name }}.service"
                 state: stopped
                 enabled: no
-#              ignore_errors: yes
 
             - name: Remove systemd flask app service file
               file:
@@ -222,7 +221,6 @@
         name: "{{ pip_dependencies }}"
         state: absent
         executable: /usr/bin/pip
-          #      ignore_errors: yes
 
     - name: Remove flask user
       user:

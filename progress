@@ -5,10 +5,13 @@ top directory
 - added group_vars/ for app control_node db_servers load_balancers *.yml
 - added manage-servers.yml
 - added provision-app-tier.yml
+- added provision DB tier
+- added provision LB tier
+
 
 
 
 
 - added roles for flask, haproxy, postgres, manage_inmemory_inventory, manage_servers
 
-
+- removed comments from teardown
