@@ -14,4 +14,7 @@ top directory
 
 - added roles for flask, haproxy, postgres, manage_inmemory_inventory, manage_servers
 
+- completed role for manage_servers
+
+
 - removed comments from teardown
